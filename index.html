@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="ffd166">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+    <h1 id="a">H T M L</h1>
+    <h2 id="b">Assignments</h2>
+    <center>
+        <table id="tr" style="height: 70px;width: 1300px;border: white 2px;">
+            <tr id="tr">
+                <td><a style="text-decoration: none;color: inherit;" href="./index.html">Assignment no.1</a></td>
+                <td><a style="text-decoration: none;color: inherit;" href="./Class 3/nested list1.html">Assignment no.2</a></td>
+                <td><a style="text-decoration: none;color: inherit;" href="./Class 5/index.html">Assignment no.3</a></td>
+                <td><a style="text-decoration: none;color: inherit;" href="./Class 6/periodic table.html">Assignment no.4</a></td>
+                <td><a style="text-decoration: none;color: inherit;" href="./Class 7/index.html">Assignment no.5</a></td>
+                <td><a style="text-decoration: none;color: inherit;" href="./Class 8/index.html">Assignment no.6</a></td>
+            </tr>
+        </table>
+        <br>
+        <br>
+    </center>
+<h1><hr color="red">HTML Assignment no 1<hr color="red"></h1>
+<h2>Game of Cricket</h2>
+<p>Cricket is a sport that requires the use of a <strong>bat and ball</strong>.<br>It is easily one of the
+most prevalent sports in the world.<br>This game consists of <strong>two teams</strong> that include
+<i>11 players</i> each.<br>The main aim of the game is to score the highest number of runs.
+<br>It is played on a <i>pitch</i> in a field that is well-maintained for the same purpose.<br><strong><i>Cricket</i></strong>
+is particularly famous in England and India.<br>There is a lot of potential in Cricket
+which allows players to earn well.<br>Cricket does not have one single format but various
+ones.<br>Similarly, each format has a different set of rules and duration.</p>
+<h2>Super Script & Sub Script</h2>
+<p>C<sub>9</sub>H<sub>8</sub>O<sub>4</sub>
+<br>CH<sub>4</sub>
+<br>10<sup>6</sup>
+<br>14<sup>th</sup>Aug</p>
+<h2>Strike</h2>
+<p><strong>Price</strong>
+<br>was <s>$499</s>
+<br>is $399</p>
+<h2>Attributes</h2>
+<p><abbr title="Board of Control for Cricket in India">BCCI</abbr> is the richest <strong><i>Cricket Board</i></strong> in the world.</p>
+<p><q>Poetry is everywhere,it just needs editing</q></p>
+</body>
+</html>

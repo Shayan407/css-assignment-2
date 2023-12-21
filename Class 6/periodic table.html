@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {border: solid #9a031e 1px;}
+        #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #9a031e;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  #myBtn:hover {
+    background-color: rgb(209, 40, 79);
+    color: #ffd166;
+  }
+  td:hover{
+    background-color: white;
+    color: #9a031e;
+  }
+@font-face {
+    font-family: montserrat;
+src:url(./montserrat/Montserrat.otf);
+}
+h1{
+    font-family: montserrat;
+    font-weight: 800;
+}
+h2{
+    font-family: montserrat;
+}
+tr{
+    font-family: montserrat;
+}
+#a{
+    margin: 0%;
+    text-align: center;
+    color: #9a031e;
+    font-size: 90px;
+    margin-bottom: -1%;
+}
+#b{
+    margin-top: 0%;
+    text-align: center;
+    color: rgb(209, 40, 79);
+    font-size: 55px;
+    font-weight: 350;
+}
+#tr{
+    background-color:#9a031e;
+    text-align: center;
+    font-size: 23px;
+    color: #ffd166;
+    margin: 0%;
+    border-right: white;
+}
+    </style>
+</head>
+<body bgcolor="ffd166">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+    <h1 id="a">H T M L</h1>
+    <h2 id="b">Assignments</h2>
+    <center>
+        <table id="tr" style="height: 70px;width: 1300px;border: white 2px;">
+            <tr id="tr">
+                <td><a style="text-decoration: none;color: inherit;" href="../index.html">Assignment no.1</a></td>
+                <td><a style="text-decoration: none;color: inherit;" href="../Class 3/nested list1.html">Assignment no.2</a></td>
+                <td><a style="text-decoration: none;color: inherit;" href="../Class 5/index.html">Assignment no.3</a></td>
+                <td><a style="text-decoration: none;color: inherit;" href="../Class 6/periodic table.html">Assignment no.4</a></td>
+                <td><a style="text-decoration: none;color: inherit;" href="../Class 7/index.html">Assignment no.5</a></td>
+                <td><a style="text-decoration: none;color: inherit;" href="../Class 8/index.html">Assignment no.6</a></td>
+            </tr>
+        </table>
+    </center>
+<br>
+<br>
+<center> 
+<h1>The Periodic Table</h1>
+<br>
+<body>
+   <table style="text-align: center; "  border="1" width="1000">
+   	<tr>
+   		<td bgcolor="orange"> <font color="green"> 1 <br>H</font></td>
+        <td  style="empty-cells:hide; " colspan="16"></td>
+        <td bgcolor="orange"> <font color="green"> 2 <br>He</font></td>
+   	</tr>
+
+<tr>
+   		<td bgcolor="pink"> <font color="black"> 3 <br>li</font></td>
+        <td bgcolor="lightblue"> <font color="black"> 4 <br>be</font></td>
+          <td style="empty-cells: hide;" colspan="10"></td>
+        <td bgcolor="#b5651D"> <font color="Red"> 5 <br>B</font></td>
+   		<td bgcolor="orange"> <font color="black"> 6 <br>c</font></td>
+        <td bgcolor="orange"> <font color="green"> 7 <br>N</font></td>
+        <td bgcolor="orange"> <font color="green"> 8 <br>O</font></td>
+        <td bgcolor="yellow"> <font color="green"> 9 <br>F</font></td>
+        <td bgcolor="white"> <font color="green"> 10 <br>Ne</font></td>
+
+        </tr>
+
+   	<tr>
+   			<td bgcolor="pink"> <font color="black"> 11 <br>Na</font></td>
+        <td bgcolor="lightblue"> <font color="black"> 12 <br>Mg</font></td>
+          <td style="empty-cells: hide;" colspan="10"></td>
+        <td bgcolor="lightgreen"> <font color="black"> 13 <br>AI</font></td>
+   		<td bgcolor="#b5651D"> <font color="black"> 14 <br>SI</font></td>
+        <td bgcolor="orange"> <font color="green"> 15 <br>P</font></td>
+        <td bgcolor="orange"> <font color="green"> 16 <br>S</font></td>
+        <td bgcolor="yellow"> <font color="green"> 17 <br>CI</font></td>
+        <td bgcolor="white"> <font color="green"> 18 <br>Ar</font></td>
+   	</tr>
+   	<tr>
+        <td bgcolor="pink"> <font color="black"> 19 <br>k</font></td>
+        <td bgcolor="lightblue"> <font color="black"> 20 <br>Ca</font></td>
+        <td bgcolor="yellow"> <font color="black"> 21 <br>Sc</font></td>
+        <td bgcolor="yellow"> <font color="black"> 22 <br>Ti</font></td>
+        <td bgcolor="yellow"> <font color="black"> 23 <br>V</font></td>
+        <td bgcolor="yellow"> <font color="black"> 24 <br>Cr</font></td>
+        <td bgcolor="yellow"> <font color="black"> 25 <br>Mn</font></td>
+        <td bgcolor="yellow"> <font color="black"> 26 <br>Fe</font></td>
+        <td bgcolor="yellow"> <font color="black"> 27 <br>Co</font></td>
+        <td bgcolor="yellow"> <font color="black"> 28 <br>Ni</font></td>
+        <td bgcolor="yellow"> <font color="black"> 29 <br>Cu</font></td>
+        <td bgcolor="yellow"> <font color="black"> 30 <br>Zn</font></td>
+        <td bgcolor="lightgreen"> <font color="blue">  31 <br>Ga</font></td>
+        <td bgcolor="#b5651D"> <font color="black"> 32 <br>Ge</font></td>
+        <td bgcolor="#b5651D"> <font color="black"> 33 <br>As</font></td>
+        <td bgcolor="pink"> <font color="black"> 34 <br>Se</font></td>
+        <td bgcolor="yellow"> <font color="blue"> 35 <br>Br</font></td>
+        <td bgcolor="white"> <font color="green"> 36 <br>Kr</font></td>
+   	</tr>
+
+   	<tr>
+   		<td bgcolor="pink"> <font color="black"> 37 <br>Rb</font></td>
+        <td bgcolor="lightblue"> <font color="black"> 38 <br>Sr</font></td>
+        <td bgcolor="yellow"> <font color="black"> 39 <br>Y</font></td>
+        <td bgcolor="yellow"> <font color="black"> 40 <br>Zr</font></td>
+        <td bgcolor="yellow"> <font color="black"> 41 <br>NB</font></td>
+        <td bgcolor="yellow"> <font color="black"> 42 <br>Mo</font></td>
+        <td bgcolor="yellow"> <font color="Red"> 43 <br>Tc</font></td>
+        <td bgcolor="yellow"> <font color="black"> 44 <br>Ru</font></td>
+        <td bgcolor="yellow"> <font color="black"> 45 <br>Rh</font></td>
+        <td bgcolor="yellow"> <font color="black"> 46 <br>Pd</font></td>
+        <td bgcolor="yellow"> <font color="black"> 47 <br>Ag</font></td>
+        <td bgcolor="yellow"> <font color="black"> 48 <br>Cd</font></td>
+        <td bgcolor="lightgreen"> <font color="black"> 49 <br>In</font></td>
+        <td bgcolor="lightgreen"> <font color="black"> 50 <br>Sn</font></td>
+        <td bgcolor="#b5651D"> <font color="black"> 51 <br>Sb</font></td>
+        <td bgcolor="#b5651D"> <font color="black"> 52 <br>Te</font></td>
+        <td bgcolor="yellow"> <font color="black"> 53 <br>I</font></td>
+        <td bgcolor="white"> <font color="black"> 54 <br>Xe</font></td>
+   	</tr>
+
+   	<tr>
+   		<td bgcolor="pink"> <font color="blue"> 55 <br>Cs</font></td>
+        <td bgcolor="lightblue"> <font color="black"> 56 <br>Ba</font></td>
+        <td bgcolor="white"> <font color="black"> 57-71 <br></font></td>
+        <td bgcolor="yellow"> <font color="black"> 72 <br>Hf</font></td>
+        <td bgcolor="yellow"> <font color="black"> 73 <br>Ta</font></td>
+        <td bgcolor="yellow"> <font color="black"> 74 <br>W</font></td>
+        <td bgcolor="yellow"> <font color="black"> 75 <br>Re</font></td>
+        <td bgcolor="yellow"> <font color="black"> 76 <br>Os</font></td>
+        <td bgcolor="yellow"> <font color="black"> 77 <br>Ir</font></td>
+        <td bgcolor="yellow"> <font color="black"> 78 <br>Pt</font></td>
+        <td bgcolor="yellow"> <font color="black"> 79 <br>Au</font></td>
+        <td bgcolor="yellow"> <font color="blue"> 80 <br>Hg</font></td>
+        <td bgcolor="lightgreen"> <font color="black"> 81 <br>Ti</font></td>
+        <td bgcolor="lightgreen"> <font color="black"> 82 <br>Pb</font></td>
+        <td bgcolor="lightgreen"> <font color="black"> 83 <br>Bi</font></td>
+        <td bgcolor="#b5651D"> <font color="black"> 84 <br>Po</font></td>
+        <td bgcolor="yellow"> <font color="black"> 85 <br>At</font></td>
+        <td bgcolor="white"> <font color="black"> 86 <br>Rn</font></td>
+   	</tr>
+<tr>
+   		<td bgcolor="pink"> <font color="blue"> 87 <br>Fr</font></td>
+        <td bgcolor="lightblue"> <font color="black"> 88 <br>Ra</font></td>
+        <td bgcolor="white"> <font color="black"> 89-103 <br></font></td>
+        <td bgcolor="yellow"> <font color="Red"> 104 <br>Rf</font></td>
+        <td bgcolor="yellow"> <font color="Red"> 105 <br>Db</font></td>
+        <td bgcolor="yellow"> <font color="Red"> 106 <br>Sg</font></td>
+        <td bgcolor="yellow"> <font color="Red"> 107 <br>Bh</font></td>
+        <td bgcolor="yellow"> <font color="Red"> 108 <br>Hs</font></td>
+        <td bgcolor="yellow"> <font color="Red"> 109 <br>Mt</font></td>
+        <td bgcolor="yellow"> <font color="Red"> 110 <br>Ds</font></td>
+        <td bgcolor="yellow"> <font color="Red"> 111 <br>Rg</font></td>
+        <td bgcolor="yellow"> <font color="Red"> 112 <br>Cn</font></td>
+        <td bgcolor="white"> <font color="black"> 113 <br>Nh</font></td>
+        <td bgcolor="white"> <font color="black"> 114 <br>FI</font></td>
+        <td bgcolor="white"> <font color="black"> 115 <br>Mc</font></td>
+        <td bgcolor="white"> <font color="black"> 116 <br>Lv</font></td> 
+        <td bgcolor="white"> <font color="black"> 117 <br>Ts</font></td>
+        <td bgcolor="white"> <font color="black"> 118 <br>Og</font></td>
+   	</tr>
+
+   </table>
+<br>
+<br>
+   <table border style="text-align: center;="1px" width="800">
+   	<tr>
+   		<td bgcolor="white"> <font color="black"> 57 <br>La</font></td>
+        <td bgcolor="white"> <font color="black"> 58 <br>Ce</font></td>
+        <td bgcolor="white"> <font color="black"> 59 <br>Pr</font></td>
+        <td bgcolor="white"> <font color="black"> 60 <br>Nd</font></td>
+        <td bgcolor="white"> <font color="red">   61 <br>Pm</font></td>
+        <td bgcolor="white"> <font color="black"> 62 <br>Sm</font></td>
+        <td bgcolor="white"> <font color="black"> 63 <br>Eu</font></td>
+        <td bgcolor="white"> <font color="black"> 64 <br>Gd</font></td>
+        <td bgcolor="white"> <font color="black"> 65 <br>Tb</font></td>
+        <td bgcolor="white"> <font color="black"> 66 <br>Dy</font></td>
+        <td bgcolor="white"> <font color="black"> 67 <br>Ho</font></td>
+        <td bgcolor="white"> <font color="black"> 68 <br>Er</font></td>
+        <td bgcolor="white"> <font color="black"> 69 <br>Tm</font></td>
+        <td bgcolor="white"> <font color="black"> 70 <br>Yb</font></td>
+        <td bgcolor="white"> <font color="black"> 71 <br>Lu</font></td>
+   	</tr>
+
+ 	<tr>
+   		<td bgcolor="white"> <font color="black"> 89 <br>Ac</font></td>
+        <td bgcolor="white"> <font color="black"> 90 <br>TH</font></td>
+        <td bgcolor="white"> <font color="black"> 91 <br>PA</font></td>
+        <td bgcolor="white"> <font color="black"> 92 <br>U</font></td>
+        <td bgcolor="white"> <font color="Red"> 93 <br>Np</font></td>
+        <td bgcolor="white"> <font color="Red"> 94 <br>Pu</font></td>
+        <td bgcolor="white"> <font color="Red"> 95 <br>Am</font></td>
+        <td bgcolor="white"> <font color="Red"> 96 <br>Cm</font></td>
+        <td bgcolor="white"> <font color="Red"> 97 <br>Bk</font></td>
+        <td bgcolor="white"> <font color="Red"> 98 <br>Cf</font></td>
+        <td bgcolor="white"> <font color="Red"> 99 <br>Es</font></td>
+        <td bgcolor="white"> <font color="Red"> 100 <br>Fm</font></td>
+        <td bgcolor="white"> <font color="Red"> 101 <br>Md</font></td>
+        <td bgcolor="white"> <font color="Red"> 102 <br>No</font></td>
+        <td bgcolor="white"> <font color="Red"> 103 <br>Lr</font></td>
+   	</tr>
+   </table>
+   </center>
+
+</body>
+</html>
